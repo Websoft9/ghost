@@ -1,7 +1,7 @@
 {
   "name": "ghost",
   "trademark": "Ghost",
-  "installpath": "/data/wwwroot/ghost",
+  "installpath": "/data/apps/ghost",
   "compose_file": "docker-compose.yml",
   "fork_url": "https://hub.docker.com/_/ghost",
   "env_file": ".env",
