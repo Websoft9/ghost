@@ -20,7 +20,7 @@ services:
       # this url value is just an example, and is likely wrong for your environment!
       - url=http://$APP_URL:$APP_HTTP_PORT
     volumes:
-      - ghost:/var/lib/ghost
+      - ghost:/var/lib/ghost/content
     depends_on:
       - db
 
