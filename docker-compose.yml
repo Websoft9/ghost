@@ -18,7 +18,7 @@ services:
       - database__connection__password="$DB_MYSQL_PASSWORD"
       - database__connection__database=$DB_MYSQL_NAME
       # this url value is just an example, and is likely wrong for your environment!
-      - url=http://$APP_URL:$APP_HTTP_PORT
+      - url=http://$APP_URL
     volumes:
       - ghost:/var/lib/ghost/content
     depends_on:
